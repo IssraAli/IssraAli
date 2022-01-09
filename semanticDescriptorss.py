@@ -1,3 +1,5 @@
+import math
+
 def cosine_similarity(vec1, vec2):
     words = vec1.keys()
     num = 0
