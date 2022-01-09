@@ -1,22 +1,3 @@
-'''Semantic Similarity: starter code
-
-Author: Michael Guerzhoy. Last modified: Nov. 14, 2016.
-'''
-
-import math
-
-
-def norm(vec):
-    '''Return the norm of a vector stored as a dictionary,
-    as described in the handout for Project 3.
-    '''
-    
-    sum_of_squares = 0.0  
-    for x in vec:
-        sum_of_squares += vec[x] * vec[x]
-    
-    return math.sqrt(sum_of_squares)
-
 def cosine_similarity(vec1, vec2):
     words = vec1.keys()
     num = 0
